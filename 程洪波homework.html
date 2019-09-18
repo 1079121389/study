@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div id="in1"></div>
+		<input type="text" id="btn1"/>+
+		<input type="text" id="btn2"/>
+		<button id="button1">按钮</button>
+		<script type="text/javascript">
+			var button1 = document.getElementById('button1');
+			button1.onclick = function(){
+				c = parseInt(Number(btn1.value))+parseInt(Number(btn2.value));
+				in1.innerHTML = c;
+				if(isNaN(btn1.value||btn2.value)==true){
+					alert("不是数字无法计算")
+				}else{
+					
+				}
+					
+				
+			}
+		</script>
+
+	</body>
+</html>
