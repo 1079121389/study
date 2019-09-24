@@ -1,0 +1,65 @@
+
+#测验
+##2019年9月24日08:44:07
+###参与人:
+
+1.获取元素的方法有哪些?并简单描述该方法.
+
+答:1var a = document.getElementByid('');2获取标签var a = document.getElementByTagName('');
+3.利用选择器var a = document.getElementQueryselector('');和var a = document.getElementQueryselectorAll(''); 4.获取class1var a = document.getElementByClassName('');
+
+
+2.如果有10个div元素,在不给元素设置id的情况下如何找到第4个div元素?
+
+答:
+利用for循环就像昨晚的作业给第三个方块设置蓝类
+
+
+3.querySelector()和querySelectorAll()的区别?
+答:
+前者可以依靠选择器找到元素 但前者只能找到列表的第一个元素 ，而后者可以全部找到
+
+
+4.如何给元素div内增加一个子元素<a href="#">去百度</a>?
+答: 1.可以在div中直接创建 2.给div一个ID值  然后如下   
+        var mydiv = document.getElementById('mydiv');
+        mydiv .innerHTML = '<a href="#">'
+        
+        
+        
+
+5.<div class="box red">,在css中box类设定了宽度和高度,red类设定了div的背景颜色.如何通过改变类名blue改变背景颜色,请写出代码?
+答:   
+ <style>
+    
+        .box red{
+            width:200px;
+            height:200px;
+           
+            background-color:red;
+        }
+        .zi{
+            width:200px;
+            height:200px;
+           
+            background-color:blue;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="box red" id="sii"></div>
+    <button id="btn">变色</button>
+    <script>
+        var sii =document.getElementById('sii');
+        var btn = document.getElementById('btn');
+        btn.onclick = function(){
+            sii.ClassName = 'zi';
+            
+        }
+
+
+
+                
+  
+    </script>
