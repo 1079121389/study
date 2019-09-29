@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h3 id="mytag">加粗练习</h3>
+<script>
+    var mytag = document.getElementById('mytag');
+    console.log(mytag.tagName);
+
+
+    if(mytag.tagName == 'H1' || mytag.tagName == 'H2'|| mytag.tagName == 'H3'|| mytag.tagName == 'H4'|| mytag.tagName == 'H5'|| mytag.tagName == 'H6'|| mytag.tagName == 'B'|| mytag.tagName == 'strong'){
+        mytag.style.fontWeight = 400;
+    }
+    //方法二 
+    //不管是不是粗体，统一变成西体
+    mytag.style.fontWeight = 400;
+ //方法三:
+ var arr = ['H1','H2','H3','H4','H5','H6','B','STRONG'];
+        // console.log(arr.indexOf('DIV'))
+        //检测数组里是否有粗体的标签名 ,返回-1以外的都是粗体
+        var isTure = arr.indexOf(mytag.tagName);
+        console.log(isTure);
+        //判断如是粗体标签名 就改变样式
+        if(isTure != -1){
+            mytag.style.fontWeight = 200;
+            mytag.style.color = 'red';
+        }
+var istrue
+</script>    
+</body>
+</html> 

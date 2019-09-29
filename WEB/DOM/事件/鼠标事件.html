@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #mydiv{
+            width:50px;
+            height:50px;
+            background-color:blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div id="mydiv">
+        
+    </div>
+    <script>
+        var mydiv = document.getElementById('mydiv');
+        mydiv.onclick = function(){
+            alert('点击事件');
+        }
+      // 鼠标按下
+      mydiv.onmousedown = function(){
+          mydiv.innerHTML = '按下事件';
+
+      }
+      //鼠标抬起事件
+      mydiv.onmousedup = function(){
+          mydiv.innerHTML = '';
+          
+      }
+        
+        mydiv.ondblclick = function(){
+            alert('双击事件');
+        }
+         //鼠标移入
+         mydiv.onmouseover = function(){
+             console.log('移入了0000000000');
+         }
+        
+
+         //鼠标移出
+         //会触发冒泡（逐级从内向外依次触发）
+         document.onmouseout = function(){
+             console.log('移出了');
+         }
+
+         //鼠标移动
+         //需要注意只要鼠标移动就触发
+         document.onmousemove = function(){
+             console.log('移动了');
+         }
+         mydiv.onmousemove = function(){
+             console.log('div');
+         }
+
+         //移入且不会进行多次触发
+
+         mydiv.onmouseenter = function(){
+             console.log('div');
+         }
+         //移出且不会进行多次触发
+
+         mydiv.onmouseleave = function(){
+             console.log('div');
+         }
+         
+    </script>
+</body>
+</html>

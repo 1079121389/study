@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #box{
+            position:relative;
+        }
+    #box > div{
+        width:35px;
+        height:35px;
+        border:1px solid red;
+        position:absolute;
+        background-image:url(sasika.gif);
+        opacity:0;
+        transition:0.5s;
+    }
+    </style> 
+     
+</head>
+<body>
+    <div id="box"></div>
+    <script>
+        var box =document.getElementById('box');
+        for( var i=0;i<6;i++){
+            for(var j=0;j<14;j++){
+                var div =document.createElement('div');
+                box.appendChild(div);
+                div.style.top = i*35 + 'px';
+                div.style.left = j*35 + 'px';
+                div.style.backgroundPositionY = i * -35 +'px';
+                div.style.backgroundPositionX = j * -35 +'px';
+                div.onmousemove= function(){
+                    this.style.opacity = 1;
+                }
+            }
+           
+        }
+ 
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <script>
+       var a = document.getElementsByTagName('div');
+        for(var i=0;i<a.length;i++){
+            a[i].style.width = '50px';
+            a[i].style.height = '50px';
+            a[i].style.backgroundColor = 'red';
+            a[i].style.display ='inline-block';
+            a[i].style.marginLeft = '20px';
+
+
+        }
+        a[2].style.backgroundColor = 'blue';
+        
+   
+    </script>
+    
+</body>
+</html>
