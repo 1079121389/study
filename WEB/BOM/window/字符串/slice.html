@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+   
+    <script>
+        // var str = 'hihao,tom';
+        // var nstr = str.split(',');
+        // console.log(nstr);
+        var human ='哈士奇,阿拉斯加,萨摩耶,博美,吉娃娃,泰迪,波士顿,八哥,比特,蝴蝶';
+        var dog = human.split(',');
+        console.log(dog)
+        var ul =document.createElement('ul');
+        document.body.appendChild(ul);
+        for( var i=0;i<dog.length;i++){
+            ul.innerHTML+='<li>'+dog[i]+'</li>';
+        }
+        
+
+        
+       
+        
+
+    </script>
+</body>
+</html>

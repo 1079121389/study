@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  <style>
+   #missk{
+            width:3000px;
+            height:40px;
+         
+            border:1px solid black;
+        }
+        #mis{
+           width:0;
+            height:40px;
+         
+            background-color:red;
+        }
+        </style>
+</head>
+<body>
+        <div id="missk">
+            <div id="mis"></div>
+        </div>
+        <script>      
+            var a = document.getElementById('missk');
+            var d = document.getElementById('mis');
+            a.onclick =function(a,b,e){
+                var c = a.clientX;
+                d.style.width=c+'px';
+            }
+        
+        </script>
+    
+</body>
+</html>

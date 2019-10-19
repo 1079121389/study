@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // var a ='siberian'
+        // var a =document.getElementById('siberian');
+        // for(var i=0;i<6;i++){
+        //     if(i==6){
+        //         i==0;
+        //     }
+        //     setInterval(function(){
+        //         console.log(a)
+        //     },1000)
+            
+        // }
+        var a = 'nagato';
+        var i=0;
+      var tis= setInterval(function(){
+            i++;
+            if(i>=a.length){
+                clearInterval(tis);
+              
+            }else{
+                console.log(a.charAt(i))
+            }
+           
+            
+        },1000);
+    </script>
+</body>
+</html>

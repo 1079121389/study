@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #missk{
+            width:30px;
+            height:40px;
+         
+            background-color:red;
+        }
+    </style>
+</head>
+<body>
+    <div id="missk"></div>
+    <script>
+        var arr = 0;
+        var a = document.getElementById('missk');
+        timer = setInterval(function(){
+           
+            a.style.width=arr+'px';
+            arr+=10;
+            if(arr > 100){
+                clearInterval(timer);
+            }
+        
+      
+           
+
+        },500);
+      
+    
+    </script>
+</body>
+</html>

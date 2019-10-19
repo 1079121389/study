@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button id="a">a</button>
+    <button id="b">b</button>
+    <script>
+        document.getElementById('a').onclick = function(){
+            window.open('视口大小.html','_top');
+            //_self 当前窗口打开
+            //_blank 新窗口打开（默认）
+        }
+        document.getElementById('b').onclick = function(){
+            window.close('视口大小.html','_blank');
+            //_self 当前窗口打开
+            //_blank 新窗口打开（默认）
+        }
+    </script>
+</body>
+</html>

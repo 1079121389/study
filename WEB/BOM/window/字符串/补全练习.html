@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="输入编号" id="in1">
+    <button id="btn1">登录</button>
+    <script>
+        var arr =document.getElementById('in1');
+        var brr =document.getElementById('btn1');
+        brr.onclick=function(){
+            if(arr.value== ''){
+                alert(请输入编号)
+            
+        }else{
+            var c = arr.value;
+            var d = c.padStart(6,'0');
+            alert(d);
+
+        }
+        }
+        
+    </script>
+</body>
+</html>

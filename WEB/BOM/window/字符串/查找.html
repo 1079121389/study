@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var str = 'nihao,tom';
+        var mstr = str.match(/o/g)
+        console.log(mstr);
+        var sstr = str.search(/o/g);
+        console.log(sstr);//返回收个匹配出来的下标值
+        console.log(sstr.lastIndexOf('nihao'));
+        console.log(sstr.charAt(5));
+        console.log(sstr.match(/tom/g));
+    
+    </script>
+    
+</body>
+</html>
