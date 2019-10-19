@@ -1,0 +1,295 @@
+.sinnav{
+	width:100%;
+	height:53px;
+	background-color: #f1f1f1;
+	padding:26px 0px;
+}
+.sc{
+	width:1110px;
+	height:24px;
+}
+.sc ul li{
+	float:left;
+	line-height: 24px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #555555;
+    margin-left:15px;
+    font-size:14px;
+}
+.sc ul li a{
+	color:#262626;
+	 font-weight: 500;
+	
+}
+.sc ul li a i{
+	margin-left:10px;
+}
+.sc ul li:nth-child(3){
+	color:#39B0FF;
+}
+.sc ul li a:hover{
+	color:#39B0FF;
+	transition: 0.5s;
+}
+.cbody{
+	width:100%;
+	height:1014px;
+	padding:70px 0px;
+}
+.container{
+	width:1110px;
+	height:1014px;
+	padding:15px 0px;
+	
+}
+.fox{
+	width:1140px;
+	height:595px;
+}
+.foxse1{
+	width:445px;
+	height:595px;
+	padding:0px 15px;
+	float:left;
+}
+.foxse1 img{
+	width:445px;
+	height:510px;
+}
+.foxse1>div{
+	width:445px;
+	height:70px;
+	margin-top:15px;
+	text-align: center;
+}
+.foxse1 button{
+	width:70px;
+	height:70px;
+
+    border: none;
+
+
+
+}
+.foxse1 button img{
+	width:70px;
+	height:70px;
+	
+}
+.foxse1 button:hover{
+	border:2px solid #73B320;
+}
+.foxse2{
+	width:632px;
+	height:595px;
+	padding:0px 15px;
+	float:right;
+	
+}
+.foxse2 h2{
+	font-weight: 600;
+    margin-top: -10px;
+}
+.star{
+	width:635px;
+	height:24px;
+	margin-top:10px;
+}
+.foxse2 span{
+	width:635px;
+	height:24px;
+	margin:11px 0px 10px;
+	color: #e74c3c;
+    font-weight: 700;
+    font-size:18px;
+}
+.starspan{
+	margin-bottom:12px;
+}
+.starspan span{
+	width:635px;
+	height:24px;
+	font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 12px
+}
+.starspan span:nth-child(1){
+	margin-right:30px;
+	color: #28a745!important;
+}
+.starspan span:nth-child(2){
+	color: #555555!important;
+}
+.foxse2 p{
+	margin:0px 0px 15px;
+	color:#555555;
+}
+.foxse2 h4{
+	width:635px;
+	height:24px;
+	margin:0px 0px 15px;
+}
+.foxse2 ul{
+	width:635px;
+	height:20px;
+	margin-bottom: 25px;
+}
+.foxse2 ul li{
+	width:35px;
+	height:20px;
+	float:left;
+}
+.foxse2 ul li:nth-child(1){
+	background-color:#000000;
+	margin-right:10px;
+	
+}
+.foxse2 ul li:nth-child(2){
+	background-color:#1dd983;
+	margin-right:10px;
+}
+.foxse2 ul li:nth-child(3){
+	background-color:#f5740a;
+	
+}
+.product{
+	width:635px;
+	height:52px;
+	margin-bottom: 15px;
+}
+.product> div{
+	width:123px;
+	height:52px;
+	line-height: 24px;
+	margin-right:20px;
+}
+.product> div label{
+	width:29px;
+	height:24px;
+}
+.product> div input{
+	width:64px;
+	height:26px;
+	padding:13px 8px;
+	text-align: center;
+	
+}
+.product div{
+	float:left;
+}
+.product> a{
+	display: inline-block;
+	width:183px;
+	height:47px;
+	background:#73B320;
+	color:#FFFFFF;
+	font-weight: 400;
+	text-align: center;
+	line-height:47px;
+}
+.product> a:hover{
+	background-color: #39B0FF;
+	transition:1s;
+}
+
+.sod{
+	width:635px;
+	height:40px;
+	margin:30px 0px 0px;
+}
+.sod a{
+	display: inline-block;
+	width:28px;
+	height:28px;
+	border-radius:50% ;
+	padding:6px;
+	
+}
+.sod a img{
+	margin: 0 auto;
+}
+.sod a:nth-child(1){
+	background-color:#e5e8ec ;
+	
+}
+.sod a:nth-child(2){
+	background-color:#e5e8ec ;
+	
+}
+.sod a:nth-child(3){
+	background-color:#e5e8ec ;
+	
+}
+.sod a:hover{
+	background-color: #FF7F50;
+	transition:1s;
+}
+.tool{
+	width:1110px;
+	height:360px;
+	padding:0px 15px;
+	margin-top:50px;
+	border:1px solid #eaeaea;
+}
+.weiba{
+	width:1143px;
+	height:61px;
+	background-color: #eaeaea;
+	margin:0px 0px 0px -16px;
+}
+.weiba a{
+	width:162px;
+	height:61px;
+	display: inline-block;
+	text-align: center;
+	line-height: 61px;
+	
+}
+.weiba a:nth-child(1){
+	color:#FFFFFF;
+	background-color: #73B320;
+	
+}
+.weiba a:nth-child(2):hover{
+	color:#FFFFFF;
+	background-color: #73B320;
+	transition: 0.5s;
+	
+}
+.weiba a:nth-child(2){
+	color:#000000;
+	
+}
+.lastone{
+	width:1048px;
+	height:247px;
+	margin:0 auto;
+	margin-top:30px;
+	
+}
+.lastone p{
+	margin-bottom: 15px;
+	color: #555555;
+	font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+.lastone ul {
+	margin-top:10px;
+}
+.lastone ul li{
+	margin-top:6px;
+	color: #555555;
+	font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+.lastone ul li i{
+	display:inline-block;
+	width:5px;
+	height:5px;
+	background-color: #000000;
+	line-height:28px;
+	margin-right:15px;
+}

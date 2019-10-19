@@ -1,0 +1,221 @@
+.sinnav{
+	width:100%;
+	height:53px;
+	background-color: #f1f1f1;
+	padding:26px 0px;
+}
+.sc{
+	width:1110px;
+	height:24px;
+}
+.sc ul li{
+	float:left;
+	line-height: 24px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #555555;
+    margin-left:15px;
+    font-size:14px;
+}
+.sc ul li a{
+	color:#262626;
+	 font-weight: 500;
+	
+}
+.sc ul li a i{
+	margin-left:10px;
+}
+.sc ul li:nth-child(3){
+	color:#39B0FF;
+}
+.sc ul li a:hover{
+	color:#39B0FF;
+	transition: 0.5s;
+}
+
+.sincenter{
+	width: 100%;
+	height:554px;
+	padding:70px;
+	height:0px;
+}
+.twonav{
+	width:1050px;
+	height:484px;
+	color:#555555;
+	font-size: 14px;
+	box-shadow:0 0 6px rgba(0, 0, 0, 0.1);
+	padding:30px 30px 35px;
+}
+.cleft{
+	width:420px;
+	height:489px;
+	padding:0px 15px;
+	float:left;
+	
+}
+.cl-w{
+	width:370px;
+	height:337px;
+	padding:0px 50px 0px 0px;
+}
+.cl-w h2{
+	font-weight: 600;
+    font-size: 26px;
+    color: #262626;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.cl-w .form{
+	width:370px;
+	height:257px;
+}
+.cl-w .form input{
+	width:330px;
+	height:26px;
+	border:none;
+	background-color: #f4f5f7;
+    border: 1px solid #c5c5c5;
+    padding: 15px 20px;
+    margin-top:20px;
+	
+}
+.cl-w .form input:hover{
+	border:1px solid #73B320;
+}
+.d-divb{
+	margin-top:20px;
+	width:337px;
+	height:24px;
+}
+.d-divb> div> div{
+	margin-right:15px;
+	border:none;
+	width:15px;
+	height:15px;
+	border:1px solid #C5C5C5;
+	float:left;
+}
+.d-divb> div> a{
+	color:#262626;
+	font-weight:600;
+}
+.d-divb> div em{
+	font-style: normal;
+	color: #73b320;
+    font-size: 15px;
+    float: right;
+    
+}
+.btng{
+	width:370px;
+	height:61px;
+	margin-top:20px;
+}
+.btng button{
+	width:122px;
+	height:51px;
+	border:none;
+	color:#FFFFFF;
+	font-weight: 600;
+	background: #73B320;
+	
+}
+.btng button:hover{
+	background: #39B0FF;
+	transition: 0.5s;
+}
+.cleft1{
+	width:560px;
+	height:489px;
+	padding:0px 15px;
+	float:right;
+}
+.cl-w1{
+	width:100%px;
+	height:337px;
+}
+/****************************/
+
+.cl-w1 h2{
+	font-weight: 600;
+    font-size: 26px;
+    color: #262626;
+    width:100%;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.cl-w1 .form1{
+	width:100%;
+	height:257px;
+}
+.cl-w1 .form1 input{
+	width:518px;
+	height:26px;
+	border:none;
+	background-color: #f4f5f7;
+    border: 1px solid #c5c5c5;
+    padding: 15px 20px;
+    margin-top:20px;
+	
+}
+.cl-w1 .form1 input:hover{
+	border:1px solid #73B320;
+}
+.d-divb1{
+	margin-top:20px;
+	width:337px;
+	height:24px;
+}
+.d-divb1> div> div{
+	margin-right:15px;
+	border:none;
+	width:15px;
+	height:15px;
+	border:1px solid #C5C5C5;
+	float:left;
+}
+.d-divb1> div> a{
+	color:#262626;
+	font-weight:600;
+}
+.d-divb1> div em{
+	font-style: normal;
+	color: #73b320;
+    font-size: 15px;
+    float: right;
+    
+}
+.btng1{
+	width:370px;
+	height:61px;
+	margin-top:20px;
+}
+.btng1 button{
+	width:122px;
+	height:51px;
+	border:none;
+	color:#FFFFFF;
+	font-weight: 600;
+	background: #73B320;
+	
+}
+.btng1 button:hover{
+	background: #39B0FF;
+	transition: 0.5s;
+}
+.form1 input:nth-child(4){
+	width:225px;
+	height:26px;
+
+	
+}
+.form1 input:nth-child(5){
+	width:225px;
+	height:26px;
+    float:right;
+	
+}
+

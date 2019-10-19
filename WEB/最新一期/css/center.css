@@ -1,0 +1,36 @@
+.search{
+	
+}
+.search .center .picture1{
+	
+}
+.search .center .picture1 > img{
+	width: 1150px;
+	height: 206px;
+}
+.search .center .picture1 .tablet{
+	width: 590px;
+	/*height: 700px;*/
+	margin-top: 50px;
+	display: inline-block;
+}
+.search .center .picture1 .tablet > div{
+	background: #005e99;
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+.search .center .picture1 .tablet > span{
+	float: left;
+	width: 500px;
+	height: 50px;
+	background-color: #EFF4F7;
+	font-size: 18px;
+	font-weight: 800;
+	padding-left: 10px;
+	line-height: 45px;
+}
+.search .center .picture1 .tablet > img{
+	width: 560px;
+	height: 215px;
+}

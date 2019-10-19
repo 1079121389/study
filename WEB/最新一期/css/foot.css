@@ -1,0 +1,132 @@
+.footer{
+	width:100%;
+
+	background-color:#313131;
+}
+.ft{
+	width:100%;
+	height:108px;
+	background-color: #3B4348;
+}
+.you{
+	display:flex;
+	width:825px;
+	height:48px;
+	float:left;
+	position: relative;
+}
+.you h2{
+	position: absolute;
+	display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    text-align:center;
+}
+.you h2 i{
+	display:block;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width:44px;
+	height:38px;
+	background-image:url(../img/bxinfeng.png);
+	float:left;
+	background-color:whitesmoke;
+	border-radius: 14%;
+}
+.you h2 em{
+	line-height:50px;
+	margin-left:15px;
+}
+.he{
+	width:225px;
+	height:40px;
+	float:right;
+}
+.he a{
+	display: inline-block;
+	width:40px;
+	height:40px;
+	background-color:#0077b5;
+	/*background-image: url(img/bgb.png);*/
+	background-repeat: no-repeat;
+	background-size:90% ;
+	border-radius: 50%;
+}
+.he a img{
+	padding:13px;
+}
+.youc{
+	width:536px;
+	height:48px;
+	float:right;
+	position:absolute;
+	right:1px;
+	
+}
+.youc input{
+	width:401px;
+	height:48px;
+	border:none;
+	padding-left:20px;
+}
+.youc button{
+	width:115px;
+	height:48px;
+	background-color: #73b320;
+	border:none;
+	float:right;
+	color: #fff;
+    font-weight: 600;
+    font-size:14px;
+}
+.center{
+	padding: 30px 0px;
+}
+.fc{
+	width:100%;
+	height:200px;
+	padding:35px 0px;
+}
+.four{
+	width:268px;
+	height:236px;
+	padding:0px 15px;
+	float:left;
+}
+.four h3{
+	margin: 0 0 20px;
+	font-size:18px;
+	color:#FFFFFF;
+}
+.four ul{
+	color:#adadad;
+	font-size:13px;
+}
+.four ul li{
+	width:100%;
+	height:25px;
+	margin:0px 0px 10px;
+}
+.xin{
+	color:#FFFFFF;
+	font-weight: 700;
+}
+.last{
+	width:100%px;
+	height:92px;
+	background-color: #262626;
+}
+.last p{
+	display: inline-block;
+	width:540px;
+	color:#ADADAD;
+}
+.last img{
+	float:right;
+}
+#badboy{
+	display: inline-block;
+	color:dodgerblue;
+}
