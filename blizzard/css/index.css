@@ -1,0 +1,146 @@
+*{
+	padding:0;
+	margin:0;
+}
+.wrap{
+	width:100%;
+	height:995px;
+	background-color:cornflowerblue ;
+	color:#ffffff;
+}
+.sinnav{
+	width:100%;
+	height:160px;
+	position: relative;
+}
+.sinnav h1{
+	position:absolute;
+	margin:45px 570px 10px;
+}
+.sinnav h1 img{
+	width:350px;
+	height:105px;
+}
+.center{
+	width:500px;
+	height:594px;
+	margin:0 auto;
+}
+.bz-t{
+	width:100%;
+	height:212px;
+	position: relative;
+}
+.bz-t h1{
+	margin:20px 0px 28px;
+	text-align: center;
+	
+}
+.bz-t button{
+	width:100%;
+	height:40px;
+	border:none;
+	background-color:#5e0598;
+	color:#FFFFFF;
+	margin:3px 0px 15px;
+}
+.or{
+	width:100%;
+	height:21px;
+	text-align: center;
+	margin:20px 0px;
+	font-family: "arial rounded mt bold";
+	
+}
+.bz-t p{
+	margin:0px 0px 10px;
+	color:#FFFFFF;
+	font-family: "微软雅黑";
+	font-weight: 600;
+}
+.in1{
+	width:475px;
+	height:26px;
+	padding: 0px 10px;
+	margin-top:13px;
+	border:1px solid #DEAEFF;
+	
+	
+}
+.in1:hover{
+	border:1px solid #deaeff;
+	transition: 0.5s;
+	
+}
+.yanzheng{
+	width:475px;
+	height:26px;
+	padding: 0px 10px;
+	margin-top:13px;
+	position: relative;
+}
+.shangxia{
+	width:38px;
+	height:25px;
+	position: absolute;
+	left:1px;
+	padding:0px 10px;
+	line-height:26px;
+	background-color: #FFFFFF;
+	color:gray;
+    background-color: rgba(0,0,0,0.3);
+}
+.yanzheng input{
+	width:410px;
+	height:21px;
+	position: absolute;
+	right:1px;
+	padding:0px 10px;
+	line-height: 28px;
+}
+.xinxi{
+	width:475px;
+	height:28px;
+	padding: 0px 10px;
+	margin-top:13px;
+	line-height: 28px;
+	
+
+}
+.xinxi input{
+	width:345px;
+	height:31px;
+	padding: 0px 10px;
+	position: absolute;
+	left:1px;
+	line-height: 27px;
+	
+}
+.xinxi button{
+	width:125px;
+	height:28px;
+	position: absolute;
+	right:1px;
+	border:2px solid ##5E0598;
+	line-height: 27px;
+	
+	
+	
+}
+.redo{
+	width:475px;
+	height:28px;
+	padding: 0px 10px;
+	margin-top:13px;
+	line-height: 28px;
+	position: relative;
+}
+.redo input{
+	border: none;
+	width:20px;
+	height:20px;
+	position: absolute;
+	bottom: 5px;
+	left:1px;
+}
+
